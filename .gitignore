@@ -32,3 +32,31 @@ build/
 *.class
 *.jar
 *.war
+# IDE 설정 (STS, Eclipse)
+.metadata/
+.settings/
+.classpath
+.project
+
+# 빌드 파일
+target/
+build/
+*.class
+*.jar
+*.war
+
+# IntelliJ
+.idea/
+*.iml
+
+# 로그
+*.log
+
+# 환경 변수 / 민감 정보
+.env
+application-secret.properties
+application-prod.properties
+
+# 기타
+.DS_Store
+Thumbs.db
